@@ -1,0 +1,28 @@
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl"
+);
+
+TEXT(beginproblem());
+
+BEGIN_PGML
+【二次関数：頂点の求め方】
+
+二次関数  
+[` y = x^2 - 4x + 1 `]  
+の頂点の座標を求めなさい。
+
+(ヒント：平方完成をすると求めやすい。)
+
+頂点： ( [_] , [_] )
+
+END_PGML
+
+# 正解
+Context("Point");
+ANS( "2"->cmp() );
+ANS( "-3"->cmp() );
+
+ENDDOCUMENT();
