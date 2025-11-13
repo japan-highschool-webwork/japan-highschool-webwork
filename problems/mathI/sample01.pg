@@ -8,8 +8,17 @@ loadMacros(
 TEXT(beginproblem());
 
 BEGIN_PGML
-ここに問題文が入ります。
-これはプレースホルダー問題です（sample01.pg）。
+【数と式：因数分解】
+
+次の式を因数分解しなさい。
+
+[` x^2 - 5x + 6 `]
+
+回答欄： [_]  
+
 END_PGML
+
+# 正解
+ANS( "(x-2)(x-3)"->cmp() );
 
 ENDDOCUMENT();
