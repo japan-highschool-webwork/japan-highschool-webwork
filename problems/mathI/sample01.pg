@@ -1,0 +1,15 @@
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl"
+);
+
+TEXT(beginproblem());
+
+BEGIN_PGML
+ここに問題文が入ります。
+これはプレースホルダー問題です（sample01.pg）。
+END_PGML
+
+ENDDOCUMENT();
